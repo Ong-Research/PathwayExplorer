@@ -1,0 +1,13 @@
+
+source(here::here("R", "read_data.R"))
+source(here::here("R", "de_plots.R"))
+source(here::here("R", "pathway_plots.R"))
+
+library(rintrojs, quietly = TRUE)
+library(magrittr, quietly = TRUE)
+library(tidyverse, quietly = TRUE)
+library(plotly, quietly = TRUE)
+library(cowplot, quietly = TRUE)
+library(fgsea, quietly = TRUE)
+library(qusage, quietly = TRUE)
+library(DT, quietly = TRUE)
