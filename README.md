@@ -21,4 +21,12 @@ Then the app will show:
 <img src="man/figures/demo_pathway.png" alt = "path" width = "450" />
 </center>
 
+## Bibliography
 
+### DESeq2
+
+Love, Michael I., Wolfgang Huber, and Simon Anders. 2014. “Moderated Estimation of Fold Change and Dispersion for RNA-Seq Data with DESeq2.” Genome Biology 15 (12): 550.
+
+### fgsea
+
+Korotkevich, Gennady, Vladimir Sukhov, Nikolay Budin, Boris Shpak, Maxim N. Artyomov, and Alexey Sergushichev. 2021. “Fast Gene Set Enrichment Analysis.” bioRxiv. https://doi.org/10.1101/060012.
