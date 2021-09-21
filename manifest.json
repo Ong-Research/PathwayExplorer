@@ -89,6 +89,31 @@
         "Built": "R 4.0.5; ; 2021-04-17 10:17:21 UTC; unix"
       }
     },
+    "BiocManager": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "BiocManager",
+        "Title": "Access the Bioconductor Project Package Repository",
+        "Description": "A convenient tool to install and update Bioconductor packages.",
+        "Version": "1.30.16",
+        "Authors@R": "c(\n    person(\"Martin\", \"Morgan\", email = \"martin.morgan@roswellpark.org\",\n        role = \"aut\", comment = c(ORCID = \"0000-0002-5874-8148\")),\n    person(\"Marcel\", \"Ramos\", email = \"marcel.ramos@roswellpark.org\",\n        role = c(\"ctb\", \"cre\"), comment = c(ORCID = \"0000-0002-3242-0582\")))",
+        "Imports": "utils",
+        "Suggests": "BiocVersion, remotes, rmarkdown, testthat, withr, curl, knitr",
+        "BugReports": "https://github.com/Bioconductor/BiocManager/issues",
+        "VignetteBuilder": "knitr",
+        "License": "Artistic-2.0",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2021-06-15 20:50:41 UTC; mr148",
+        "Author": "Martin Morgan [aut] (<https://orcid.org/0000-0002-5874-8148>),\n  Marcel Ramos [ctb, cre] (<https://orcid.org/0000-0002-3242-0582>)",
+        "Maintainer": "Marcel Ramos <marcel.ramos@roswellpark.org>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-06-15 22:10:02 UTC",
+        "Built": "R 4.0.2; ; 2021-06-16 10:25:53 UTC; unix"
+      }
+    },
     "BiocParallel": {
       "Source": "Bioconductor",
       "Repository": null,
@@ -3835,11 +3860,14 @@
     }
   },
   "files": {
+    ".Rprofile": {
+      "checksum": "679c40a4ac0f8044f21d25941c5c026f"
+    },
     "app.R": {
       "checksum": "2b1ccab00cf0efcf1a57f6b1022dfc98"
     },
     "global.R": {
-      "checksum": "367823ff7fc531f62ead9cc17d95b4f8"
+      "checksum": "2da6546ce6b0364a1346164291ba875f"
     },
     "hg38_ensemblv86_annots.qs": {
       "checksum": "750a86d03499439d73038dfefc210f9a"
